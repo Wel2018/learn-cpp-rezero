@@ -1,3 +1,16 @@
+# 排除目录
+/.out
+/bin
+/.vscode
+
+
+# 临时文件
+*tmp.*
+*temp.*
+*.log
+*.o
+*.out
+
 # Prerequisites
 *.d
 

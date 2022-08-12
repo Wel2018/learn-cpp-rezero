@@ -2,13 +2,14 @@
 
 # Learn C++ Re:Zero
 
+<p>
 <img src="https://img.shields.io/github/issues/Wel2018/learn-cpp-rezero"/>
 <img src="https://img.shields.io/github/stars/Wel2018/learn-cpp-rezero"/>
 <img src="https://img.shields.io/github/license/Wel2018/learn-cpp-rezero"/>
 <img src="https://img.shields.io/badge/platform-linux%20%7C%20windows%20-blue"/>
 <img src="https://img.shields.io/github/contributors/Wel2018/learn-cpp-rezero"/>
 <img src="https://img.shields.io/github/commit-activity/m/Wel2018/learn-cpp-rezero"/>
-
+</p>
 
 📝 [Blog](https://juejin.cn/user/2594503171769720/posts)
 | 📄 [Documentation](doc/overview.md)

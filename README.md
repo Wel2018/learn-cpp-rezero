@@ -23,9 +23,10 @@ Learn C++ from scratch.
 - [Learn C++ Re:Zero](#learn-c-rezero)
   - [Table of Contents](#table-of-contents)
   - [Motivation](#motivation)
-  - [Content arrangement](#content-arrangement)
-  - [Project structure](#project-structure)
-  - [Dev environment](#dev-environment)
+  - [Content Arrangement](#content-arrangement)
+  - [Project Structure](#project-structure)
+  - [Environment](#environment)
+  - [Contributing](#contributing)
   - [References](#references)
   - [License](#license)
 
@@ -42,10 +43,7 @@ C language is very elegant, with few syntax features, but it can implement a lot
 > *Note*: 
 > From C++11 to 20, the standard library's support for some important features (such as network, asynchronous programming, coroutines, reflection, etc.) is still have a long way from the high-level languages. Fortunately, the C++ standards committee have made great contributions over the years. Many useful features in C++ 11-17, such as smart-pointers, rvalues, string_view, variadic templates, lambda, and more are introduced. The quasi-standard library Boost provides even more useful "infrastructure" that makes programming easier.
 
-Welcome all friends who are interested in C++ to ⭐ star this project, your support is the biggest motivation for me to continue updating!
-Due to my level and energy are limited, the blogs and related code may have inadequacies and errors, welcome to ask questions and discussion in ⁉ [Issues](https://github.com/Wel2018/learn-cpp-rezero/issues), also welcome to **Pull Request** directly!
-
-## Content arrangement
+## Content Arrangement
 
 The tentative arrangements are listed as follows:
 
@@ -73,7 +71,7 @@ The tentative arrangements are listed as follows:
 - Bitmap application
 - ...
 
-## Project structure
+## Project Structure
 
 ```
 . 
@@ -89,7 +87,7 @@ The tentative arrangements are listed as follows:
 |-- README.md            # project documents (English ver.)
 ```
 
-## Dev environment
+## Environment
 
 All the test code passed in the following environment:
 
@@ -100,13 +98,17 @@ All the test code passed in the following environment:
 - Editor: vscode
 - C++ standard: C++17
 
+## Contributing
+
+Welcome all friends who are interested in C++ to ⭐ star this project, your support is the biggest motivation for me to continue updating!
+Due to my level and energy are limited, the blogs and related code may have inadequacies and errors, welcome to ask questions and discussion in ⁉ [Issues](https://github.com/Wel2018/learn-cpp-rezero/issues), also welcome to **Pull Requests** when you make sure which are not already open.
+
 ## References 
- 
+
 - [C++ reference](https://en.cppreference.com/w/)
 - [Boost C++ Libraries](https://www.boost.org/doc/libs/1_80_0/)
 
 ## License
 
 MIT License (for more details, see the [license file](LICENSE))
-
 

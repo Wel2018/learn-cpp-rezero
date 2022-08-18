@@ -5,6 +5,13 @@ BIN_PATH = ./bin
 INCLUDE = ./include
 SRC = ./src
 
+threadpool: 
+	${CC} -g -D DEBUG \
+	-I ${INCLUDE} -I ${SRC} \
+	test/test_threadpool.cpp  \
+	-o ${BIN_PATH}/threadpool.out
+	${BIN_PATH}/threadpool.out
+
 memcheck:
 	${CC} -g -D DEBUG \
 	-I ${INCLUDE} -I ${SRC} \

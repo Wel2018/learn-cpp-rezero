@@ -1,3 +1,3 @@
-# allocator
+# Thread Pool
 
 Coming soon.

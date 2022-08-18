@@ -12,5 +12,7 @@
 #define printd(fmt, args...)
 #endif
 
+#define COUT(x) std::cout << x << std::endl
+
 #endif /* _DEBUG_H */
 

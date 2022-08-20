@@ -5,6 +5,13 @@ BIN_PATH = ./bin
 INCLUDE = ./include
 SRC = ./src
 
+logger: 
+	${CC} -g -D DEBUG \
+	-I ${INCLUDE} -I ${SRC} \
+	test/test_logger.cpp  \
+	-o ${BIN_PATH}/logger.out
+	${BIN_PATH}/logger.out
+
 threadpool: 
 	${CC} -g -D DEBUG \
 	-I ${INCLUDE} -I ${SRC} \

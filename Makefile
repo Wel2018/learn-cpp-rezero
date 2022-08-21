@@ -4,6 +4,14 @@ CC = g++ -std=c++17
 BIN_PATH = ./bin
 INCLUDE = ./include
 SRC = ./src
+D = -g -D DEBUG
+
+cstring: 
+	${CC} ${D} \
+	-I ${INCLUDE} -I ${SRC} \
+	test/test_cstring.cpp  \
+	-o ${BIN_PATH}/cstring.out
+	${BIN_PATH}/cstring.out
 
 logger: 
 	${CC} -g -D DEBUG \
